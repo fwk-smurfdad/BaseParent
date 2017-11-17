@@ -92,7 +92,7 @@
 									<mainClass>${main.class}</mainClass>
 									<preCp>anything</preCp>
 								</classPath>
-								<!-- <icon>${main.icon}</icon> -->
+								<icon>${main.icon}</icon>
 								<jre>
 									<minVersion>${jre.minVersion}</minVersion>
 									<jdkPreference>preferJre</jdkPreference>
