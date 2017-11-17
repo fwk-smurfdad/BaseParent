@@ -11,8 +11,7 @@ deploy:
   script: "mvn deploy"
   skip_cleanup: true
   on:
-    tags: true
-    branches: true
+    tags: false
 notifications:
   email:
     recipients:
