@@ -10,3 +10,12 @@ deploy:
   provider: script
   script: "mvn deploy"
   skip_cleanup: true
+  on:
+    tags: true
+    branches: true
+notifications:
+  email:
+    recipients:
+    - smurfdad@smurfdad.es
+    on_success: change
+    on_failure: always
