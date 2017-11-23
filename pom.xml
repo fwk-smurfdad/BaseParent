@@ -10,11 +10,16 @@
 	<name>es.smurfdad.fwk.maven</name>
 
 	<description>Módulo padre de definición de aplicaciones Maven de Smurf Dad</description>
-	<inceptionYear>2017</inceptionYear>
+
 	<organization>
 		<name>Smurf Dad</name>
 		<url>http://smurfdad.es</url>
 	</organization>
+
+	<scm>
+		<url>https://github.com/fwk-smurfdad/BaseParent</url>
+		<connection>scm:git:https://github.com/fwk-smurfdad/BaseParent.git</connection>
+	</scm>
 
 	<properties>
 		<default.encoding>UTF-8</default.encoding>
